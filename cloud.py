@@ -53,7 +53,7 @@ def gen_cloud():
     plt.figure(figsize=(12,12))
     plt.imshow(wc.recolor(color_func=image_colors), interpolation='bilinear')
     plt.axis("off")
-    # plt.savefig('musical_review.png')
+    plt.savefig('result.png')
     plt.show()
     
 
